@@ -1,0 +1,38 @@
+body{
+    background-image: url("../images/IndianOcean_1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+.u{
+    margin-top:1px;
+    margin-right: 5px;
+  }
+
+@media only screen and (max-width:768px) {
+    body{
+        background-image: url("../images/IndianOcean_1.jpg");
+        background-repeat: no-repeat;
+        background-size: auto;
+        
+    }
+  }
+.mapdiv{
+    text-align:center;
+    
+
+}
+
+.mapdiv path{
+    fill:black;
+    stroke: white;
+    stroke-width: 0.8px;
+    transition: fill 1s;
+}
+
+
+.mapdiv :hover{
+    fill:red;
+   
+}
